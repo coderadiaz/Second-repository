@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="card" style="width: 35rem">
+        <div class="card-body">
+          <div class= "formStyle">
+          <form id= "search-city-form">
+          <input type="search" placeholder="🔎search a city" class="formComponent" id="search-bar"/>
+        </form> <button id="submit-search">search</button> <button id="current-button"> current</button>
+      </div>
+          <div class="row">
+          <div class="col-8" id= "city-name">City name</div>
+          <div class="col-4 city emoji">🌤</div>
+          </div>
+        <div class="row">
+          <div class="col-7 temperature"><span id="temp">°C</span></div>
+        </div> <div class="characGroup">
+        <div class="characteristics" class="leftCharac"id="date"> </div>
+        <div class="characteristics" class="rightCharac"id="humidity">Humidity: </div>
+       </div> 
+       <div class="characGroup">
+        <div class="characteristics" class="leftCharac" id="description">Description:</div>
+        <div class="characteristics" class="rightCharac" id="wind">Wind speed:</div>
+       </div>
+
+          <div class="row">
+            <div class="col day-left">Tomorrow ☁ <span class="gray">27°C</span></div>
+            <div class="col day-right">Tuesday 🌤 <span class="gray">28°C</span></div>
+          </div>
+          <div class="row">
+            <div class="col day-left">Wednesday 🌤 <span class="gray">27°C</span></div>
+            <div class="col day-right">Thurdsay 🌧 <span class="gray">26°C</span></div>
+          </div>
+          <div class="last-day">Friday 🌤 <span class="gray">25°C</span></div>
+        </div>
+      </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
