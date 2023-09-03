@@ -1,0 +1,122 @@
+.city {
+  text-align: right;
+  font-weight: normal;
+  font-size: 20px;
+}
+.temperature {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+.emoji {
+  font-size: 45px;
+  text-align: right;
+  position: absolute;
+  margin-left: 325px;
+  display: inline;
+}
+.card {
+  margin: 0 auto;
+  float: none;
+  margin-top: 100px;
+  width: 50%;
+  border: 4px solid #51b8f3;
+}
+.day-left {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 13px;
+  margin-right: 3px;
+  line-height: 45px;
+  text-align: center;
+  border: 10px;
+  border-color: black;
+  padding: 5px;
+  border: 4px solid #51b8f3;
+  font-size: 22px;
+}
+.day-right {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 13px;
+  margin-left: 3px;
+  line-height: 45px;
+  text-align: center;
+  padding: 5px;
+  border: 4px solid #51b8f3;
+  font-size: 22px;
+}
+input {
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.last-day {
+  margin-bottom: 40px;
+  margin-top: 10px;
+  margin-right: 128px;
+  margin-left: 128px;
+  line-height: 45px;
+  text-align: center;
+
+  padding: 5px;
+  border: 4px solid #51b8f3;
+  font-size: 22px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gray {
+  color: #5a6275;
+}
+.formStyle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.characteristics {
+  font-size: 20px;
+  color: gray;
+}
+.rightCharac {
+  order: 2;
+}
+.leftCharac {
+  order: 1;
+}
+.characGroup {
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  margin-bottom: 30px;
+}
+#search-city-form {
+  margin-bottom: 0px;
+}
+#search-bar {
+  margin-bottom: 30px;
+}
+#search-bar {
+  margin-right: 10px;
+  display: flex;
+}
+#search-bar {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#city-name {
+  display: block;
+  margin: 0auto;
+  text-align: center;
+  font-weight: normal;
+  font-size: 20px;
+}
+#current-button {
+  margin-left: 10px;
+}
