@@ -92,6 +92,9 @@ input {
   display: flex;
   justify-content: space-between;
 }
+.source-link {
+  text-align: center;
+}
 button {
   margin-bottom: 30px;
 }
